@@ -20,3 +20,29 @@
 10. Line 12 will print 3 since the value of `length` is defined within the block and has not been reassigned. 
 11. Similar to qeustion 4 and 8, this function will return an array `discounted` of values of `discountedPrice`. This does not cause an error because we are not reassigning the value of discounted. We are instead modifying it. 
 12. 
+    - a) `student.name`
+    - b) `student['Grad Year']`
+    - c) `student.greeting()`
+    - d) `student['Favorite Teacher].name`
+    - e) `student.courseLoad[0]`
+13. 
+    - a) '32'
+    - b) 1
+    - c) 3
+    - d) '3null'
+    - e) 4
+    - f) 0
+    - g) '3undefined'
+    - h) NaN
+14. 
+    - a) true
+    - b) false
+    - c) true 
+    - d) false
+    - e) false
+    - f) true
+15. The difference between the == and === operator is that when you use ===, no type conversion is done. On the other hand, if you use ==, a type conversion happens before the comparison. 
+16. part1b-question16.js
+17. The result is [ 2, 4, 6 ]. We get this result by calling modifyArray with parameters [1,2,3] and doSomething. When we call this function, it does a callback on `doSomething`. Then we multiply each iteration in `array` by 2 as seen in `doSomething`. 
+18. part1b-question18.js
+19. 1 4 3 2
